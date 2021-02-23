@@ -8,7 +8,7 @@ public class StudentSearch {
         for (Student student: students)
             if (student.getId().equals(id))
                 return true;
-
         return false;
     }
-}
+    }
+
